@@ -19,7 +19,8 @@ public class Main {
 	 
 	 int valorComCast = (int) valor;
 	 
-	 System.out.println("valor digitado: ");
+	 System.out.println("valor com casas: " + valor +
+			 " | valor inteiro: " + valorComCast);
 	 
 		
 	}
