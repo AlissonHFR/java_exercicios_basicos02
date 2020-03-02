@@ -1,5 +1,7 @@
 package br.fai.projeto02;
 
+import java.util.Scanner;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -10,7 +12,15 @@ public class Main {
 	}
 
 	private void start() {
-		// TODO Auto-generated method stub
+	 Scanner ler = new Scanner(System.in);
+	 
+	 System.out.println("Digite um valor: ");
+	 double valor = ler.nextDouble();
+	 
+	 int valorComCast = (int) valor;
+	 
+	 System.out.println("valor digitado: ");
+	 
 		
 	}
 
